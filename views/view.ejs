@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon css -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Font css -->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- Slider css -->
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+
+</head>
+
+<body class="bg-info">
+
+    <!-- Modal Movieadd -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded overflow-hidden">
+                <div class="modal-body p-0 position-relative">
+                    <div class="col-12 d-flex bg-success">
+                        <div class="col-5 position-relative d-flex flex-column align-items-between overflow-hidden">
+                            <div class="overlay-2"></div>
+                            <div class="slider slider-scroll">
+                                <div class="slide-track">
+                                    <div class="slide">
+                                        <img src="images/1.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/2.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/3.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/4.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/5.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/6.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/7.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/1.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/9.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/10.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/11.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/12.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/13.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/14.webp" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider slider-reverce">
+                                <div class="slide-track d-flex">
+                                    <div class="slide">
+                                        <img src="images/15.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/16.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/17.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/18.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/19.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/1.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/3.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/5.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/6.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/20.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/1.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/21.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/22.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/23.webp" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider slider-scroll">
+                                <div class="slide-track">
+                                    <div class="slide">
+                                        <img src="images/24.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/18.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/12.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/6.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/5.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/4.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/12.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/14.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/21.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/1.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/5.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/2.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/23.webp" alt="" />
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/24.webp" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4 pb-0">
+                            <form enctype="multipart/form-data" method="post" action="/addMovie">
+                                <div class="col-12">
+                                    <input type="text" placeholder="Movie Name..." name="moviename" class="ho-input">
+                                </div>
+
+                                <div class="col-12 d-flex">
+                                    <div class="col-6 mt-3 pe-2">
+                                        <label for="types" class="mb-2 text-white">Type:</label>
+                                        <select class="form-select form-select" name="types"
+                                            aria-label="Default select example">
+                                            <option selected>Select Type</option>
+                                            <option value="movie">Movie</option>
+                                            <option value="Webearies">Websearies</option>
+                                            <option value="tvshow">TvShow</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-6 mt-3 ps-2">
+                                        <label for="catagary" class="mb-2 text-white">Catagary:</label>
+                                        <select class="form-select form-select" name="catagary"
+                                            aria-label="Default select example">
+                                            <option selected>Select Catagary</option>
+                                            <option value="Action">Action</option>
+                                            <option value="Thriller">Thriller</option>
+                                            <option value="Drama">Drama</option>
+                                            <option value="Romance">Romance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <label class="mb-2 text-white">Languages:</label>
+                                    <div class="d-flex" style="column-gap: 15px;">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Hindi"
+                                                name="languages" id="Hindi">
+                                            <label class="form-check-label text-white" for="Hindi text-white">
+                                                Hindi
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Tamil"
+                                                name="languages" id="Tamil">
+                                            <label class="form-check-label text-white" for="Tamil">
+                                                Tamil
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Marathi"
+                                                name="languages" id="Marathi">
+                                            <label class="form-check-label text-white" for="Marathi">
+                                                Marathi
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Malyalam"
+                                                name="languages" id="Malyalam">
+                                            <label class="form-check-label text-white" for="Malyalam">
+                                                Malyalam
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <label for="" class="mb-2 text-white">Description:</label>
+                                    <textarea class="text-white" rows="3" type="number"
+                                        placeholder="Enter Movie Description..." name="description"></textarea>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <div class="mt-2 col-8 pe-2">
+                                        <label for="profileImg" class="form-label text-white">Choose Banner
+                                            Image...</label>
+                                        <input class="form-control" type="file" name="banner">
+                                    </div>
+
+                                    <div class="col-4 mt-2 ps-2">
+                                        <label for="rate" class="mb-2 text-white">Ratting:</label>
+                                        <select class="form-select form-select" name="rate"
+                                            aria-label="Default select example">
+                                            <option selected>Select Rate</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit"
+                                        style="background: linear-gradient(93.87deg,#095ae6,#062794);;"
+                                        class="col-12 btn btn-primary mt-4 mb-3">Add Movie</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <% movies.forEach((movie)=> { %>
+        <div class="modal fade" id="exampleModal<%= movie.id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body position-relative" style="height: 520px;">
+                        <a href="#" class="position-absolute end-0 fw-light px-3 pt-2 fs-4" style="z-index: 33;" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="col-12 h-100 position-relative rounded overflow-hidden">
+                            <div class="col-6 position-absolute p-5" style="z-index: 33;">
+                                <span class="text-white fs-4">
+                                    <%= movie.types %>
+                                </span>
+                            </div>
+
+                            <div class="overlay p-5 d-flex align-items-end text-white">
+                                <div class="col-12 d-flex">
+                                    <div class="col-8 h-100">
+                                        <h1>
+                                            <%= movie.moviename %>
+                                        </h1>
+                                        <p class="mb-2" style="font-size: 18px;">
+                                            <%= movie.languages %>
+                                        </p>
+                                        <div class="col-9">
+                                            <p class="col-12">
+                                                <%= movie.description %>
+                                            </p>
+                                            <p style="font-size: 18px;">
+                                                <span class="pe-2">
+                                                    Catagary: &nbsp;<%= movie.catagary %>
+                                                </span>
+                                                |
+                                                <span class="ps-2">Ratting: &nbsp;
+                                                    <% if(movie.rate==1){ %>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                    <% } %>
+                                                    <% if(movie.rate==2){ %>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                    <% } %>
+                                                    <% if(movie.rate==3){ %>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                    <% } %>
+                                                    <% if(movie.rate==4){ %>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-regular fa-star fs-7"></i></span>
+                                                    <% } %>
+                                                    <% if(movie.rate==5){ %>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                        <span><i class="fa-solid fa-star text-warning fs-7"></i></span>
+                                                    <% } %>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="col-12 d-flex">
+                                            <a href="/editMovie/<%= movie.id %>" style="color: rgb(0, 0, 0) !important;"
+                                                class="btn btn-movie bg-light dark-hover rounded px-3 py-1">Edit</a>
+                                            <a href="/deleteMovieViewPage/<%= movie.id %>"
+                                                style="color: rgb(0, 0, 0) !important;"
+                                                class="btn btn-movie bg-light dark-hover rounded px-3 py-1 ms-4">Delete</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="col-12 h-100 d-flex align-items-end justify-content-end">
+                                            <button class="btn btn-movie-watch bg-transparent rounded px-3 py-1"
+                                                style="border: 1px solid white; color: white;">Watch Movie</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="<%= movie.banner %>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+
+    <div class="main-wrapper d-flex w-100">
+        <div class="side-bar bg-info d-flex align-items-center position-relative">
+            <div class="col-12 position-absolute" style="top: 25px; left: 0;">
+                <div class="col-12 d-flex justify-content-center">
+                    <div style="width: 60px;" class="logo-box d-flex justify-content-center">
+                        <img src="images/logo-d-plus.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-12 mt-2 d-flex justify-content-center pt-1">
+                    <a href="#" class="text-warning subscribe-btn">Subscribe <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-12 p-3">
+                <div class="col-12">
+                    <div class="col-12">
+                        <aside>
+                            <nav class="main-nav">
+                                <div class="p-0 tran-5 d-flex flex-column align-items-center" style="row-gap: 5px;">
+                                    <a href="#" class="col p-3  nav-li d-flex align-items-center">
+                                        <div class="img-box nav-icons-img d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <img src="images/38.png" alt="">
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">My Space</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="col p-3  nav-li d-flex align-items-center">
+                                        <div class="img-box d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">Search</span>
+                                        </div>
+                                    </a>
+                                    <a href="/" class="col p-3  nav-li d-flex align-items-center">
+                                        <div class="img-box d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <i class="fa-solid fa-house"></i>
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">Home</span>
+                                        </div>
+                                    </a>
+                                    <a href="/viewMoviePage" class="col p-3  nav-li d-flex align-items-center">
+                                        <div class="img-box d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <i class="fa-solid fa-tv"></i>
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">All Shows</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                                        class="col p-3  nav-li d-flex align-items-center">
+                                        <div class="img-box d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <i class="fa-solid fa-clapperboard"></i>
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">Add Movie</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="col p-3 nav-li d-flex align-items-center">
+                                        <div class="img-box d-flex align-items-center position-relative">
+                                            <span>
+                                                <div class="nav-icons">
+                                                    <i class="fa-solid fa-volleyball"></i>
+                                                </div>
+                                            </span>
+                                            <span class="px-3 icon-content tran-5">Sports</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </nav>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contents w-100 bg-info">
+            <div class="col-12 d-flex flex-column row-gap-3">
+                <section class="mt-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <% var count=0 %>
+                                        <% movies.forEach((movie, index)=> { %>
+
+                                            <% if(movie.types==='movie' ) { %>
+                                                <% count++ %>
+                                                    <% if(count==1) {%>
+                                                        <span style="font-weight: 500; font-size: 20px; color: #e1e6f0;">Latest
+                                                            Movies</span>
+                                                    <%} %>
+                                            <%} %>
+                                        <%}) %>
+                                </div>
+                                <div class="col-12 mt-1 d-flex flex-wrap column-gap-3 row-gap-3">
+
+                                    <% movies.forEach((movie)=> { %>
+                                        <% if(movie.types=='movie' ) {%>
+                                            <div class="addmovies position-relative">
+                                                <img src="<%= movie.banner %>" alt="<%= movie.name %>">
+                                                <div class="overflow">
+                                                    <div class="sub-movie-box d-flex justify-content-center align-items-center">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal<%= movie.id %>" class="tran-5" style="font-size: 18px;">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <%} %>
+                                    <% }) %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- websearis -->
+                <section class="mt-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <% var count=0 %>
+                                        <% movies.forEach((movie, index)=> { %>
+
+                                            <% if(movie.types==='Webearies' ) { %>
+                                                <% count++ %>
+                                                    <% if(count==1) {%>
+                                                        <span style="font-weight: 500; font-size: 20px; color: #e1e6f0;">Latest
+                                                            Webseries</span>
+                                                    <%} %>
+                                            <%} %>
+
+                                        <%}) %>
+                                </div>
+                                <div class="col-12 mt-1 d-flex flex-wrap column-gap-3 row-gap-3">
+
+                                    <% movies.forEach((movie, index)=> { %>
+
+                                        <% if(movie.types==='Webearies' ) {%>
+                                            <div class="addmovies position-relative">
+                                                <img src="<%= movie.banner %>" alt="<%= movie.name %>">
+                                                <div class="overflow">
+                                                    <div class="sub-movie-box d-flex justify-content-center align-items-center">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal<%= movie.id %>" class="tran-5" style="font-size: 18px;">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <%} %>
+                                    <% }) %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- tvshow -->
+                <section class="mt-3 pb-5">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <% var count=0 %>
+                                        <% movies.forEach((movie, index)=> { %>
+
+                                            <% if(movie.types==='tvshow' ) { %>
+                                                <% count++ %>
+                                                    <% if(count==1) {%>
+                                                        <span style="font-weight: 500; font-size: 20px; color: #e1e6f0;">Latest
+                                                            TvShow</span>
+                                                    <%} %>
+                                            <%} %>
+
+                                        <%}) %>
+
+                                </div>
+                                <div class="col-12 mt-1 d-flex flex-wrap column-gap-3 row-gap-3">
+
+                                    <% movies.forEach((movie)=> { %>
+
+                                        <% if(movie.types==='tvshow' ) {%>
+                                            <div class="addmovies position-relative">
+                                                <img src="<%= movie.banner %>" alt="<%= movie.name %>">
+                                                <div class="overflow">
+                                                    <div class="sub-movie-box d-flex justify-content-center align-items-center">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal<%= movie.id %>" class="tran-5" style="font-size: 18px;">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <%} %>
+                                    <% }) %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+            <script type="text/javascript" src="js/slick_slick.min.js"></script>
+            <script>
+                $(".main-nav").hover(
+                    function () {
+                        $(this).children().children().children().children().next().toggleClass("hover-show-icon");
+                    },
+                );
+            </script>
+
+</body>
+
+</html>
